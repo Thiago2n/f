@@ -1,0 +1,141 @@
+﻿@page
+@model ParceriaModel
+@{
+    ViewData["Title"] = "Parceria";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <link rel="stylesheet" href="/css/site.css" />
+    </head>
+
+
+<body>
+    <div class="container">
+        <h1>Parcerias</h1>
+
+        <div class="content">
+            <div class="left-section">
+                <p>Acesso colocar seus produtos a venda: Ao fazer parceria, você pode ter acesso preferencial ou exclusivo aos produtos biodegradáveis e ecológicos oferecidos pela EcoLife, que podem ser integrados à sua linha de produtos ou utilizados em suas operações.</p>
+                <p>Responsabilidade Social Corporativa: Associar-se com a EcoLife pode fortalecer sua estratégia de responsabilidade social corporativa (CSR), demonstrando seu compromisso com práticas comerciais éticas e sustentáveis.</p>
+                <p>Nossas parcerias frequentemente envolvem projetos sociais que beneficiam a comunidade local, permitindo que sua empresa participe ativamente de ações que geram valor social.</p>
+
+                <div class="contact">
+                    <p>XXXXXXX@email.com</p>
+                    <p>(71) 02316515451</p>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <img src="handshake-image.jpg" alt="Imagem de parceria" class="image">
+                <h2>Nossas parceiras</h2>
+                <div class="partners">
+                    <div class="partner">
+                        <div class="partner-photo"></div>
+                        <p>Name</p>
+                    </div>
+                    <div class="partner">
+                        <div class="partner-photo"></div>
+                        <p>Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+      
+
+        h1 {
+            color: #4F7D47;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .left-section, .contact {
+            max-width: 800px; /* Ajusta a largura máxima para que os textos não se expandam demais */
+            margin: 0 auto; /* Centraliza os textos dentro do container */
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .left-section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+            .left-section p {
+                color: #333333;
+                font-size: 16px;
+                margin-bottom: 20px;
+                text-align: justify;
+            }
+
+        .contact {
+            background-color: #A2C89A;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .contact p {
+                font-size: 16px;
+                color: #ffffff;
+            }
+
+        .right-section {
+            width: 300px;
+        }
+        .work{
+            position:relative;
+            width:200px;
+            height:200px;
+        }
+        .p1 {
+            position:relative;
+            width:200px;
+            height:160px;
+        }
+        .p2
+
+        .image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4F7D47;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .partners {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .partner {
+            text-align: center;
+        }
+
+        .partner-photo {
+            width: 80px;
+            height: 80px;
+            background-color: #e5e5e5;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</body>
+</html>
